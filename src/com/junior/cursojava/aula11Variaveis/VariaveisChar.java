@@ -1,4 +1,4 @@
-package com.junior.cursojava.aula11;
+package com.junior.cursojava.aula11Variaveis;
 
 public class VariaveisChar {
 	public static void main(String[] args) {
