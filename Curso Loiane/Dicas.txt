@@ -1,19 +1,19 @@
 
-  ## Como transformar um arquivo ponto java para ponto class que é a linguagem que a jvm entende pelo CMD ?
+  ## Como transformar um arquivo ponto java para ponto class que e a linguagem que a jvm entende pelo CMD ?
   
    * 1--  Entrar na pasta que tem o arquivo Java.
-   * 2 -- Depois executar o seguinte comando javac nome do arquivo ponto a extensão no caso .java
+   * 2 -- Depois executar o seguinte comando javac nome do arquivo ponto a extensao no caso .java
    * 3 -- Exemplo:   javac HelloWorld.java
-   * 4 -- Depois disso o arquivo vai está no formato ponto class no qual é o formato que a jvm entende.
+   * 4 -- Depois disso o arquivo vai esta no formato ponto class no qual e o formato que a jvm entende.
 
  ## Como executar o arquivo ponto class pelo CMD ?
 
-    * 1-- Para executar o arquivo ponto class é necessário apenas colocar o nome java mais o nome do arquivo sem a extensão.
+    * 1-- Para executar o arquivo ponto class e necessario apenas colocar o nome java mais o nome do arquivo sem a extensao.
     * 2-- Exemplo:  java HelloWorld
 
- Observações: Javac é o compilador do Java ele transforma arquivo .java em arquivo .class 
+ Observacoes: Javac e o compilador do Java ele transforma arquivo .java em arquivo .class 
 
-## Observação: Java é compilado e interpretado.
+## Observacoes: Java e compilado e interpretado.
 
 
 
