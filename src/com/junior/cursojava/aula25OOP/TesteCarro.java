@@ -1,4 +1,4 @@
-package com.junior.cursojava.aula25;
+package com.junior.cursojava.aula25OOP;
 
 
 public class TesteCarro {
