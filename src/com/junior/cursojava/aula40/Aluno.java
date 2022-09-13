@@ -2,19 +2,11 @@ package com.junior.cursojava.aula40;
 
 import java.util.Arrays;
 
-public class Aluno extends Pessoa {
+public class Aluno {
 
 	private String curso;
 	private double[] notas;
-
-	@Override
-	public String obterEtiquetaEndereco() {
-
-		String s = "Nota do aluno: ";
-
-		s += this.getEndereco();
-		return s;
-	}
+	
 
 	public double calcularMedia() {
 		return 0;
@@ -40,11 +32,6 @@ public class Aluno extends Pessoa {
 		this.notas = notas;
 	}
 
-	@Override
-	public String toString() {
-		return "curso=" + curso + ", \n notas=" + Arrays.toString(notas) + ",\n getNome()=" + getNome()
-				+ ",\n getEndereco()=" + getEndereco() + ",\n getTelefone()=" + getTelefone() + ",\n getCpf()="
-				+ getCpf() + "]";
-	}
+	
 
 }

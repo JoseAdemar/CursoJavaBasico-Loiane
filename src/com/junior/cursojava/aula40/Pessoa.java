@@ -1,16 +1,18 @@
 package com.junior.cursojava.aula40;
 
-public class Pessoa {
+public final class Pessoa {
 
 	private String nome;
-	private String endereco;
+	private static final String ENDERECO = "Teste";
 	private String telefone;
 	private String cpf;
 	
 	
-	public String obterEtiquetaEndereco() {
-		return endereco;
+	public static final String obterEtiquetaEndereco() {
+		return ENDERECO;
 	}
+	
+	
 
 	public String getNome() {
 		return nome;
@@ -21,13 +23,10 @@ public class Pessoa {
 	}
 
 	public String getEndereco() {
-		return endereco;
+		return ENDERECO;
 	}
 
-	public void setEndereco(String endereco) {
-		this.endereco = endereco;
-	}
-
+	
 	public String getTelefone() {
 		return telefone;
 	}
